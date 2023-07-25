@@ -97,3 +97,35 @@ class TwoMethod:
 
 two = TwoMethod('')
 print(two.to_upper(input("String: ")))
+
+"""
+6-exercise
+"""
+
+
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def __mul__(self):
+        return self.length * self.width
+
+
+rectangle = Rectangle(12, 6)
+print(rectangle.length * rectangle.width)
+
+""" 7 - exercise """
+
+
+class American:
+    def __init__(self, text):
+        self.text = text
+
+    @staticmethod
+    def print_nationality(string):
+        return string.upper()
+
+
+two = American('')
+print(two.print_nationality('American'))
