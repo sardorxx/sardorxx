@@ -1,4 +1,4 @@
-<h3 align="center">I am a Python Software Engineer</h3>
+<h3 align="center">Python Software Engineer</h3>
 
 <h3 align="left">Social Media to Contact:</h3>
 <p align="left">
